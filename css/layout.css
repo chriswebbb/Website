@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #000000; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -104,13 +104,13 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
+   color: rgb(255, 255, 255);
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
+   color: rgb(255, 255, 255);
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -118,7 +118,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #000000; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -428,15 +428,18 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #000000;
 }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: #ebeeee;
    overflow: hidden;
    position: relative;
+
+   width:250px;
+   height:250px;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -587,9 +590,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
-
+/*
 #call-to-action {
-   background: #212121;
+   background: #ff0000;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -597,7 +600,7 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: rgb(240, 0, 0);
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
@@ -630,7 +633,7 @@ call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
-*/
+/
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -640,7 +643,7 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
-
+*/
 /* ------------------------------------------------------------------
 /* g. References
 /* ------------------------------------------------------------------ */
