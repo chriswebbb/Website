@@ -1,0 +1,120 @@
+{
+  "main": {
+    "name": "Christian Webb",
+    "occupation": "Electrical and Electronic engineer",
+    "description": "I am gay",
+    "image": "profilepic.jpg",
+    "bio": "Need to talk about myself which is a load of wank.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "chriswebbb99@gmail.com",
+    "phone": "07802-739-565",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "website": "http://www.timbakerdev.com",
+    "cvdownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/chriswebbb_",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/chriswebbb",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "cv": {
+    "skillmessage": "Level of skill I believe i could have",
+    "education": [
+      {
+        "school": "University of Southampton",
+        "degree": "MEng in Electrical and Electronic Engineering",
+        "graduated": "September 2019 - Present ( Graduate in 2023 )",
+        "description": "Describe and or link to projects."
+      },
+      {
+        "school": "Havering Sixth Form College",
+        "degree": "A-levels in Mathematics, Physics and Computer Science",
+        "graduated": "March 2003",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "Havering Sixth Form College",
+        "title": "Physics Technician",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Sucking ya mum",
+        "level": "0%"
+      },
+      {
+        "name": "Getting fucked by my ADHD and OCD",
+        "level": "100%"
+      },
+      {
+        "name": "Need to stop coding",
+        "level": "100%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "3D Engine",
+        "category": "",
+        "image": "tesseract.gif",
+        "url": "https://github.com/chriswebbb/GameEngine-Using-C-and-OpenGL"
+      },
+      {
+        "title": "MIPS Emulator",
+        "category": "",
+        "image": "",
+        "url": "https://github.com/chriswebbb/MIPS_Emulator"
+      },
+      {
+        "title": "Website Code",
+        "category": "",
+        "image": "",
+        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master"
+      }
+    ]
+  },
+  "references": {
+    "references": [
+      {
+        "text": "Grand Booty",
+        "user": "Jeff Bezos"
+      },
+      {
+        "text": "Small pp",
+        "user": "Senpai"
+      }
+    ]
+  }
+}
