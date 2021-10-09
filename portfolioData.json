@@ -1,0 +1,126 @@
+{
+  "main": {
+    "name": "Christian Webb",
+    "occupation": "Electrical and Electronic engineer",
+    "description": "I am gay",
+    "image": "profilepic.jpg",
+    "bio": "Need to talk about myself which is a load of wank.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "chriswebbb99@gmail.com",
+    "phone": "07802-739-565",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "website": "http://www.timbakerdev.com",
+    "cvdownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/chriswebbb_",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/chriswebbb",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "cv": {
+    "skillmessage": "Level of skill I believe i could have",
+    "education": [
+      {
+        "school": "University of Southampton",
+        "degree": "MEng in Electrical and Electronic Engineering",
+        "graduated": "September 2019 - Present ( Graduate in 2023 )",
+        "description": "Describe and or link to projects."
+      },
+      {
+        "school": "Havering Sixth Form College",
+        "degree": "A-levels in Mathematics, Physics and Computer Science",
+        "graduated": "March 2003",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "Havering Sixth Form College",
+        "title": "Physics Technician",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Sucking ya mum",
+        "level": "0%"
+      },
+      {
+        "name": "Getting fucked by my ADHD and OCD",
+        "level": "100%"
+      },
+      {
+        "name": "Need to stop coding",
+        "level": "100%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
