@@ -54,7 +54,7 @@ time, mark, audio, video {
    border: 0;
    outline: 0;
    font-size: 100%;
-   vertical-align: baseline;
+   vertical-align: middle;
    background: transparent;
 }
 
@@ -590,32 +590,59 @@ input[type="checkbox"] { display: inline; }
    gutter = 40px.
 /* ------------------------------------------------------------------ */
 
-/* default
+
+/* default for the whole site
 --------------------------------------------------------------- */
 .row {
-   width: 96%;
-   max-width: 1020px;
-   margin: 0 auto;
+   width: 100%;
+   max-width: 1500px;
+   height: auto;
+   margin: auto;
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
 
 .narrow .row { max-width: 980px; }
 
-.row .row { width: auto; max-width: none; margin: 0 -20px; }
+.row .row { 
+   width: auto; 
+   max-width: none; 
+   margin: 0 -20px; }
 
 /* row clearing */
-.row:before,
-.row:after {
+.row:before, .row:after {
     content: " ";
-    display: table;
+    display: grid;
 }
+
 .row:after {
     clear: both;
 }
 
+.grid-container{
+   display: grid;
+   border: 1px solid #ebeeee;
+   margin: auto;
+   max-width: 1500px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto auto auto;
+   justify-content: space-evenly;
+   grid-gap: 20px;
+   background-color: #ebeeee;
+   padding: 10px;
+}
+
+.grid-style{
+   background-color: #ebeeee;
+   background: #ffffff;
+   border: 1px solid rgb(139, 139, 139);
+   padding: 5px;
+}
+
 .column, .columns {
    position: relative;
+   display: grid;
+   width: auto;
    padding: 0 20px;
    min-height: 1px;
    float: left;
@@ -779,6 +806,7 @@ properly.
 .cf:after {
     content: " ";
     display: table;
+    border: 1px solid #000000;
 }
 .cf:after {
     clear: both;
