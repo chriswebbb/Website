@@ -90,34 +90,39 @@
   "portfolio": {
     "projects": [
       {
-        "title": "3D Engine",
+        "title": "OpenGL Framework",
         "category": "C",
         "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/GameEngine-Using-C-and-OpenGL"
+        "url": "https://github.com/chriswebbb/GameEngine-Using-C-and-OpenGL",
+        "description":"My own custom OpenGL framework to allow easy GPU rendering. This cube was created with said framework along with using a brownian motion based fragment shader."
       },
       {
         "title": "MIPS Emulator",
         "category": "C++",
-        "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/MIPS_Emulator"
+        "image": "MIPS_processor_.png",
+        "url": "https://github.com/chriswebbb/MIPS_Emulator",
+        "description":"Microprocessor without Interlocked Pipelined Stages (MIPS) Emulator"
       },
       {
         "title": "Website Code",
         "category": "React",
-        "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master"
+        "image": "Website_Code.png",
+        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master",
+        "description":"So we eat ass"
       },
       {
         "title": "MIPS Emulator",
         "category": "",
-        "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/MIPS_Emulator"
+        "image": "PCB.jpg",
+        "url": "https://github.com/chriswebbb/MIPS_Emulator",
+        "description":""
       },
       {
         "title": "Website Code",
         "category": "",
         "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master"
+        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master",
+        "description":""
       }
     ]
   },
