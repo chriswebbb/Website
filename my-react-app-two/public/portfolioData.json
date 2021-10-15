@@ -94,7 +94,7 @@
         "category": "C",
         "image": "tesseract.gif",
         "url": "https://github.com/chriswebbb/GameEngine-Using-C-and-OpenGL",
-        "description":"My own custom OpenGL framework to allow easy GPU rendering. This cube was created with said framework along with using a brownian motion based fragment shader"
+        "description":"My own custom OpenGL framework to allow easy GPU rendering. This cube was created with said framework along with using a brownian motion based fragment shader."
       },
       {
         "title": "MIPS Emulator",

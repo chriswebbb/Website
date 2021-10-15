@@ -50,12 +50,19 @@ class App extends Component {
         <About data={this.state.portfolioData.main}/>
         <CV data={this.state.portfolioData.cv}/>
         <Portfolio data={this.state.portfolioData.portfolio}/>
-        <References data={this.state.portfolioData.references}/>
-        <Contact data={this.state.portfolioData.main}/>
         <Footer data={this.state.portfolioData.main}/>
       </div>
     );
   }
 }
+/*
+<Header data={this.state.portfolioData.main}/>
+<About data={this.state.portfolioData.main}/>
+<CV data={this.state.portfolioData.cv}/>
+<Portfolio data={this.state.portfolioData.portfolio}/>
+<References data={this.state.portfolioData.references}/>
+<Contact data={this.state.portfolioData.main}/>
+<Footer data={this.state.portfolioData.main}/>
+*/
 
 export default App;

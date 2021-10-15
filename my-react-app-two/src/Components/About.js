@@ -16,15 +16,19 @@ class About extends Component {
       var cvDownoad = this.props.data.cvDownoad;
     }
 
+    if(this.props.data){
+      var networks= this.props.data.social.map(function(network){
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+       })
+     }
+
+
     return (
       <section id="about">
-      <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
 
+      <div className="row">
+         <div className="eight columns main-col">
+            <h2>About Me</h2>
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
@@ -35,11 +39,21 @@ class About extends Component {
 					   </p>
                </div>
                <div className="columns download">
+               </div>
+            </div>
+         </div>
+         <div className="four columns">
+            <img className="profile-pic"  src={profilepic} alt="Profile Pic isn't loading" />
+            <div className="main-col">
+               <ul className="social">
+                  {networks}
+               </ul>
+            </div>
+            <div className="download">
                   <p>
                      <a href={cvDownoad} className="button"><i className="fa fa-download"></i>Download CV</a>
                   </p>
                </div>
-            </div>
          </div>
       </div>
 

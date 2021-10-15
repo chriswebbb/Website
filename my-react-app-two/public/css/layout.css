@@ -97,7 +97,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #740091; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -120,6 +120,19 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #000000; }
+
+.anim-typewriter{
+   animation: typewriter 4s steps(44) 1s 1 normal both,
+              blinkTextCursor 500ms steps(44) infinite normal;
+ }
+ @keyframes typewriter{
+   from{width: 0;}
+   to{width: 24em;}
+ }
+ @keyframes blinkTextCursor{
+   from{border-right-color: rgba(255,255,255,.75);}
+   to{border-right-color: transparent;}
+ }
 
 .defaultText {
    color: rgb(0, 0, 0);
@@ -204,6 +217,7 @@ ul#nav li.current a { color: #F06000; }
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
+
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
@@ -218,6 +232,7 @@ ul#nav li.current a { color: #F06000; }
    width: 120px;
    height: 120px;
    border-radius: 100%;
+   margin-bottom: 20px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -237,6 +252,19 @@ ul#nav li.current a { color: #F06000; }
    margin-right: 15px;
    font-size: 20px;
 }
+
+#about .social {
+   margin-top: 10px;
+   font-size: 24px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#about .social li {
+   display: inline-block;
+   margin: 0 10px;
+   padding: 0;
+}
+#about .social li a { color: #fff; }
+#about .social li a:hover { color: #740091; }
 
 
 /* ------------------------------------------------------------------ */
@@ -259,7 +287,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #cv h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #740091;
    padding-bottom: 6px;
 }
 #cv h3 {
