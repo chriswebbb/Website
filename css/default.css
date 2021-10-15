@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -590,6 +590,26 @@ input[type="checkbox"] { display: inline; }
    gutter = 40px.
 /* ------------------------------------------------------------------ */
 
+.grid-container{
+   display: grid;
+   border: 1px solid #ebeeee;
+   margin: auto;
+   max-width: 1500px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto auto auto;
+   justify-content: space-evenly;
+   grid-gap: 20px;
+   background-color: #ebeeee;
+   padding: 10px;
+}
+
+.grid-style{
+   background-color: #ebeeee;
+   background: #ffffff;
+   border: 1px solid rgb(139, 139, 139);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding: 5px;
+}
 
 /* default for the whole site
 --------------------------------------------------------------- */
@@ -619,25 +639,7 @@ input[type="checkbox"] { display: inline; }
     clear: both;
 }
 
-.grid-container{
-   display: grid;
-   border: 1px solid #ebeeee;
-   margin: auto;
-   max-width: 1500px;
-   grid-template-columns: auto auto auto;
-   grid-template-rows: auto auto auto auto;
-   justify-content: space-evenly;
-   grid-gap: 20px;
-   background-color: #ebeeee;
-   padding: 10px;
-}
 
-.grid-style{
-   background-color: #ebeeee;
-   background: #ffffff;
-   border: 1px solid rgb(139, 139, 139);
-   padding: 5px;
-}
 
 .column, .columns {
    position: relative;
