@@ -23,7 +23,7 @@ TxtType.prototype.tick = function() {
    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
    var that = this;
-   var delta = 200 - Math.random() * 100;
+   var delta = 150 - Math.random() * 75;
 
    if (this.isDeleting) { delta /= 2; }
 
@@ -33,7 +33,7 @@ TxtType.prototype.tick = function() {
    } else if (this.isDeleting && this.txt === '') {
    this.isDeleting = false;
    this.loopNum++;
-   delta = 500;
+   delta = 250;
    }
 
    setTimeout(function() {
@@ -70,7 +70,7 @@ class Header extends Component {
     }
 
     return (
-      <header id="home">
+   <header id="home">
 
       <nav id="nav-wrap">
 
@@ -85,17 +85,27 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#testimonials">References</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
-
-
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Christian.", "An Electrical and Electronic engineer.", "This is my online portfolio." ]'>
-               <span class="wrap"></span>
-            </h1>
+            <div className="seven columns center">
+               <h3 className="offset-t-2 responsive"> Hello and welcome to my portfolio</h3>
+               <div className="offset-b-2">
+                  <h2>I'm <span>{name}</span></h2>
+               </div>
+               <div className="">
+                  <h3 href="" class="typewrite" data-period="1000" data-type='[ "An Electrical and Electronic engineer.", "Developer" ]'>
+                  </h3>
+               </div>
+            </div>
+            <div className="five columns">
+               <img src="images/profilepic.jpg" alt="Profile Pic isn't loading" />
+            </div>
+
          </div>
       </div>
+
 
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>

@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h1 { font-size: 30px/1.1em; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
 h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
@@ -688,6 +688,32 @@ input[type="checkbox"] { display: inline; }
 .row .offset-9    { margin-left: 75%; }
 .row .offset-10   { margin-left: 83.33333%; }
 .row .offset-11   { margin-left: 91.66667%; }
+
+/*vertical offset*/
+
+.row .offset-t-2    { margin-top: 16.66667%; }
+.row .offset-t-3    { margin-top: 25%; }
+.row .offset-t-4    { margin-top: 33.33333%; }
+.row .offset-t-5    { margin-top: 41.66667%; }
+.row .offset-t-1    { margin-top: 8.33333%; }
+.row .offset-t-6    { margin-top: 50%; }
+.row .offset-t-7    { margin-top: 58.33333%; }
+.row .offset-t-8    { margin-top: 66.66667%; }
+.row .offset-t-9    { margin-top: 75%; }
+.row .offset-t-10   { margin-top: 83.33333%; }
+.row .offset-t-11   { margin-top: 91.66667%; }
+
+.row .offset-b-2    { margin-bottom: 16.66667%; }
+.row .offset-b-3    { margin-bottom: 25%; }
+.row .offset-b-4    { margin-bottom: 33.33333%; }
+.row .offset-b-5    { margin-bottom: 41.66667%; }
+.row .offset-b-1    { margin-bottom: 8.33333%; }
+.row .offset-b-6    { margin-bottom: 50%; }
+.row .offset-b-7    { margin-bottom: 58.33333%; }
+.row .offset-b-8    { margin-bottom: 66.66667%; }
+.row .offset-b-9    { margin-bottom: 75%; }
+.row .offset-b-10   { margin-bottom: 83.33333%; }
+.row .offset-b-11   { margin-bottom: 91.66667%; }
 
 /* Push/Pull */
 .row .push-1      { left: 8.33333%; }

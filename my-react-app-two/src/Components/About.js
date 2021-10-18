@@ -42,7 +42,7 @@ class About extends Component {
                </div>
             </div>
          </div>
-         <div className="four columns">
+         <div className="four columns ">
             <img className="profile-pic"  src={profilepic} alt="Profile Pic isn't loading" />
             <div className="main-col">
                <ul className="social">
