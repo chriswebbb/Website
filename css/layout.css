@@ -103,7 +103,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-   font: 30px/1.1em 'opensans-bold', sans-serif;
+   font: 30px/1.1em "Courier New", monospace;
    color: #fff;
    letter-spacing: -2px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -111,7 +111,7 @@ header .banner-text h1 {
 }
 
 header .banner-text h2 {
-   font: 35px/1.1em 'opensans-bold', sans-serif;
+   font: 35px/1.1em "Courier New", monospace;
    color: #fff;
    letter-spacing: -2px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -121,7 +121,7 @@ header .banner-text h2 {
 }
 
 header .banner-text h3 {
-   font: 25px/1.1em 'opensans-bold', sans-serif;
+   font: 25px/1.1em "Courier New", monospace;
    color: #fff;
    letter-spacing: -2px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -214,7 +214,7 @@ header div.columns img{
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px "Courier New", monospace;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -324,7 +324,7 @@ ul#nav li.current a { color: #F06000; }
 
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px "Courier New", monospace;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -387,7 +387,7 @@ ul#nav li.current a { color: #F06000; }
 #cv a:hover, #cv a:focus { color: #313131; }
 
 #cv h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px "Courier New", monospace;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -396,7 +396,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #cv h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px "Courier New", monospace;
 }
 
 #cv .header-col { padding-top: 9px; }
@@ -408,7 +408,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #cv .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px "Courier New", monospace;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -444,7 +444,7 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px "Courier New", monospace;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -564,7 +564,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 15px/24px "Courier New", monospace;
    text-transform: uppercase;
    margin: auto;
    letter-spacing: 1px;
@@ -651,11 +651,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 14px/21px "Courier New", monospace;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 12px/18px "Courier New", monospace;
    color: #c6c7c7;
    text-align: left;
    margin-bottom: 0;
@@ -820,7 +820,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #references h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px "Courier New", monospace;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -965,7 +965,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px "Courier New", monospace;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -1080,7 +1080,7 @@ call-to-action .button {
    display: block;
 }
 #news li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
+   font: 13px/36px "Courier New", monospace;
    color: #474747 !important;
    border: none;
 }
