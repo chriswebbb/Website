@@ -133,7 +133,7 @@ header .banner-text h2 span{
    vertical-align: bottom;
 }
 header .banner-text h1 a {
-   color: rgb(153, 0, 255);
+   color: #7c00f0;
 }
 header .banner-text hr {
    width: 60%;
@@ -155,7 +155,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #740091; }
+header .social li a:hover { color: #7c00f0; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -269,7 +269,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #7c00f0; }
 
 /*
 ul#nav {
@@ -320,7 +320,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #7c00f0; }
 
 
 #about h2 {
@@ -369,7 +369,7 @@ ul#nav li.current a { color: #F06000; }
    padding: 0;
 }
 #about .social li a { color: #fff; }
-#about .social li a:hover { color: #740091; }
+#about .social li a:hover { color: #7c00f0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -392,7 +392,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #cv h1 span {
-   border-bottom: 3px solid #740091;
+   border-bottom: 3px solid #7c00f0;
    padding-bottom: 6px;
 }
 #cv h3 {
