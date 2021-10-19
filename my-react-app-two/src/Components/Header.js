@@ -23,7 +23,7 @@ TxtType.prototype.tick = function() {
    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
    var that = this;
-   var delta = 150 - Math.random() * 75;
+   var delta = 100 - Math.random() * 50;
 
    if (this.isDeleting) { delta /= 2; }
 
@@ -71,7 +71,6 @@ class Header extends Component {
 
     return (
    <header id="home">
-
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -82,35 +81,27 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#cv">CV</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">References</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
       </nav>
 
-      <div className="row banner">
-         <div className="banner-text">
-            <div className="seven columns center">
-               <h3 className="offset-t-2 responsive"> Hello and welcome to my portfolio</h3>
-               <div className="offset-b-2">
-                  <h2>I'm <span>{name}</span></h2>
-               </div>
-               <div className="">
-                  <h3 href="" class="typewrite" data-period="1000" data-type='[ "An Electrical and Electronic engineer.", "Developer" ]'>
-                  </h3>
+      <div className="banner">
+         <div className="row">
+            <div className="banner-text">
+               <div className="six columns center">
+                  <h3 className="responsive"> Hello,</h3>
+                  <div className="">
+                     <h2>I'm <span>{name}</span></h2>
+                     <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic engineer.", "Developer." ]'>
+                     </h3>
+                  </div>               
+               </div>            
+               <div className="six columns">
+                  <img src="images/profilepic.jpg" alt="Profile Pic isn't loading" />
                </div>
             </div>
-            <div className="five columns">
-               <img src="images/profilepic.jpg" alt="Profile Pic isn't loading" />
-            </div>
-
          </div>
+
       </div>
-
-
-      <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-      </p>
-
    </header>
     );
   }
@@ -131,4 +122,9 @@ class Header extends Component {
 </div>
 </div>
 */
+/* Goes undernearth the banner div
+<p className="scrolldown">
+<a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+</p>*/
+
 export default Header;
