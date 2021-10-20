@@ -640,8 +640,6 @@ input[type="checkbox"] { display: inline; }
     clear: both;
 }
 
-
-
 .column, .columns {
    position: relative;
    display: grid;
@@ -660,7 +658,7 @@ input[type="checkbox"] { display: inline; }
 .row.collapsed > .columns,
 .column.collapsed, .columns.collapsed  { padding: 0; }
 
-[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"]:last-child {  }
 [class*="column"] + [class*="column"].end { float: right; }
 
 /* column widths */

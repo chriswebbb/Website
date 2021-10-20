@@ -471,8 +471,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 div.icons div.columns{
-   padding: 0px;
-   margin: 0px;
+   outline: 1px solid #000000;
+   padding: 10px;
+   margin: 15px;
+   font-size: 5em;
 }
 
 /*

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {SiCoursera, SiCplusplus} from 'react-icons/si';
-
+import {SiCoursera, SiCplusplus, SiPython, SiAutodesk, SiJavascript, SiNodedotjs, SiReact, SiWolfram} from 'react-icons/si';
+import {ImEmbed2} from 'react-icons/im';
 
 class CV extends Component {
   render() {
@@ -65,13 +65,35 @@ class CV extends Component {
             </p>
 
           <div className="icons">
-            <div className="columns one">
+            <div className="columns">
               <SiCoursera title="C"/>
             </div>
-            <div className="columns one">
+            <div className="columns">
               <SiCplusplus title="C++"/>
+            </div>            
+            <div className="columns">
+              <ImEmbed2 title="Embedded Programming"/>
             </div>
-
+            <div className="columns">
+              <SiPython title="Python"/>
+            </div>
+            <div className="columns">
+              <SiAutodesk title="AutoDesk"/>
+            </div>
+            <div className="columns">
+              <SiJavascript title="JavaScript"/>
+            </div>
+            <div className="columns">
+              <SiNodedotjs title="Node.JS"/>
+            </div>
+            <div className="columns">
+              <SiReact title="React"/>
+            </div>
+            <div className="columns">
+              <SiWolfram title="MATLAB and Mathematica"/>
+            </div>
+            
+            
           </div>
 
 			  </div>
