@@ -1107,15 +1107,14 @@ call-to-action .button {
 
 footer {
    padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+   color: #000000;
    font-size: 14px;
    text-align: center;
    position: relative;
-   background-color:#ff0000;
+   background-color:#686868;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #000000; }
 footer a:hover, footer a:focus { color: #7c00f0; }
 
 /* copyright */
@@ -1171,7 +1170,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #000000;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
