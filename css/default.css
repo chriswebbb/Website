@@ -640,8 +640,6 @@ input[type="checkbox"] { display: inline; }
     clear: both;
 }
 
-
-
 .column, .columns {
    position: relative;
    display: grid;
@@ -660,7 +658,7 @@ input[type="checkbox"] { display: inline; }
 .row.collapsed > .columns,
 .column.collapsed, .columns.collapsed  { padding: 0; }
 
-[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"]:last-child {  }
 [class*="column"] + [class*="column"].end { float: right; }
 
 /* column widths */
@@ -692,11 +690,12 @@ input[type="checkbox"] { display: inline; }
 
 /*vertical offset*/
 
+.row .offset-t-1-9    { margin-top: 5%; }
+.row .offset-t-1    { margin-top: 8.33333%; }
 .row .offset-t-2    { margin-top: 16.66667%; }
 .row .offset-t-3    { margin-top: 25%; }
 .row .offset-t-4    { margin-top: 33.33333%; }
 .row .offset-t-5    { margin-top: 41.66667%; }
-.row .offset-t-1    { margin-top: 8.33333%; }
 .row .offset-t-6    { margin-top: 50%; }
 .row .offset-t-7    { margin-top: 58.33333%; }
 .row .offset-t-8    { margin-top: 66.66667%; }

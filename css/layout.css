@@ -236,7 +236,7 @@ ul#nav {
    min-height: 48px;
    width: auto;
 
-   /* center align the menu */
+   /* right align the menu */
    text-align: right;
    margin-top: 15px;
    margin-right: 25px;
@@ -269,7 +269,11 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #7c00f0; }
+ul#nav li.current a { 
+   text-align: left;
+   text-decoration: underline;
+   text-decoration-style: double;
+}
 
 /*
 ul#nav {
@@ -465,6 +469,14 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+
+div.icons div.columns{
+   outline: 1px solid #000000;
+   padding: 10px;
+   margin: 15px;
+   font-size: 5em;
+}
+
 /*
 .git {
   	-moz-animation: git 2s ease;
