@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {SiCoursera, SiCplusplus, SiPython, SiAutodesk, SiJavascript, SiNodedotjs, SiReact, SiWolfram} from 'react-icons/si';
+import {SiNpm, SiCoursera, SiCplusplus, SiPython, SiAutodesk, SiJavascript, SiNodedotjs, SiReact, SiWolfram, SiOpengl, SiBlender, SiCss3} from 'react-icons/si';
 import {ImEmbed2} from 'react-icons/im';
 
 class CV extends Component {
@@ -63,37 +63,57 @@ class CV extends Component {
 
             <p>{skillmessage}
             </p>
+            <h1>Programming languages
+            </h1>
 
-          <div className="icons">
-            <div className="columns">
-              <SiCoursera title="C"/>
+          <div className="icons row">
+            <div className="overlay">
+              <div className="columns">
+                <SiCoursera title="C"/>
+              </div>
+              <div className="columns">
+                <SiCplusplus title="C++"/>
+              </div>            
+              <div className="columns">
+                <ImEmbed2 title="Embedded Programming"/>
+              </div>
+              <div className="columns">
+                <SiPython title="Python"/>
+              </div>
+              <div className="columns">
+                <SiJavascript title="JavaScript"/>
+              </div>
+              <div className="columns">
+                <SiNodedotjs title="Node.JS"/>
+              </div>
+              <div className="columns">
+                <SiReact title="React"/>
+              </div>
+              <div className="columns">
+                <SiOpengl title="OpenGL"/>
+              </div>
+              <div className="columns">
+                <SiCss3 title="css"/>
+              </div>     
+              <div className="columns">
+                <SiNpm title="NPM"/>
+              </div>     
             </div>
-            <div className="columns">
-              <SiCplusplus title="C++"/>
-            </div>            
-            <div className="columns">
-              <ImEmbed2 title="Embedded Programming"/>
-            </div>
-            <div className="columns">
-              <SiPython title="Python"/>
-            </div>
+          </div>
+
+          <h1>Software
+            </h1>
+
+          <div className="icons row">
             <div className="columns">
               <SiAutodesk title="AutoDesk"/>
             </div>
             <div className="columns">
-              <SiJavascript title="JavaScript"/>
+                <SiWolfram title="Mathematica"/>
             </div>
             <div className="columns">
-              <SiNodedotjs title="Node.JS"/>
-            </div>
-            <div className="columns">
-              <SiReact title="React"/>
-            </div>
-            <div className="columns">
-              <SiWolfram title="MATLAB and Mathematica"/>
-            </div>
-            
-            
+              <SiBlender title="Blender"/>
+            </div> 
           </div>
 
 			  </div>

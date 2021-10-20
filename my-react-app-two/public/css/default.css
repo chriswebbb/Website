@@ -607,8 +607,8 @@ input[type="checkbox"] { display: inline; }
 .grid-style{
    background-color: #ebeeee;
    background: #ffffff;
-   border: 1px solid rgb(139, 139, 139);
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: 1px solid #7c00f0;
+   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    padding: 5px;
 }
 
@@ -787,6 +787,10 @@ properly.
 	   margin-right: 0;
       padding: 0 30px;
    }
+
+   .icons .columns{
+      float: left;
+   } 
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
    [class*="column"] + [class*="column"]:last-child { float: none; }
