@@ -793,7 +793,7 @@ properly.
    } 
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
-   [class*="column"] + [class*="column"]:last-child { float: none; }
+   [class*="column"] + [class*="column"]:last-child {  }
    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
 
    /* Offsets */
