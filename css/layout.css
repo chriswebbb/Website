@@ -128,8 +128,8 @@ header .banner-text h3 {
    text-align: left;
 }
 header .banner-text h2 span{
-   color: rgb(0, 0, 0);
-   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.589);
+   color: rgb(255, 255, 255);
+   text-shadow: 0px 0px 5px #7c00f0;
    vertical-align: bottom;
 }
 header .banner-text h1 a {
@@ -272,7 +272,7 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { 
    text-align: left;
    text-decoration: underline;
-   text-decoration-style: double;
+   text-decoration-style: normal;
 }
 
 /*
@@ -471,7 +471,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 div.icons div.columns{
-   outline: 1px solid #000000;
+   outline: 1px solid #7c00f0;
+   vertical-align: middle!important;
+   text-align: center;
+   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1)!important;
    padding: 10px;
    margin: 15px;
    font-size: 5em;
@@ -1109,10 +1112,11 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+   background-color:#ff0000;
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #7c00f0; }
 
 /* copyright */
 footer .copyright {
@@ -1149,7 +1153,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #7c00f0;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1180,4 +1184,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #7c00f0; }

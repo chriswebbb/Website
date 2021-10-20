@@ -9,7 +9,7 @@
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1300px) {
 
     /* header styles
    ------------------------------------------------------------------ */
@@ -17,6 +17,10 @@
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
+   }
+
+   .grid-container{
+      grid-template-columns: auto auto;
    }
 
 }
@@ -60,7 +64,11 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #resume .main-col { padding-right: 5%; }  
+   
+   .grid-container{
+      grid-template-columns: auto auto;
+   }
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -95,7 +103,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 870px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -112,7 +120,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #7c00f0;
 		position: relative;
       border: none;
       float: right;
@@ -122,7 +130,7 @@
       color: transparent;
 
       position: relative;
-      top: 0px;
+      top: 30px;
       right: 30px;
    }
 
@@ -251,6 +259,9 @@
    #call-to-action .header-col h1:before { content: none; }
    #call-to-action p { font-size: 15px; }
 
+   .grid-container{
+      grid-template-columns: auto;
+   }
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
