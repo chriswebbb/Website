@@ -143,7 +143,7 @@ html {
 
 body {
    background: #fff;
-   font-family: 'opensans-regular', sans-serif;
+   font-family: "Courier New", monospace;
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
@@ -159,7 +159,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+	font-family: "Courier New", monospace;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -692,11 +692,12 @@ input[type="checkbox"] { display: inline; }
 
 /*vertical offset*/
 
+.row .offset-t-1-9    { margin-top: 5%; }
+.row .offset-t-1    { margin-top: 8.33333%; }
 .row .offset-t-2    { margin-top: 16.66667%; }
 .row .offset-t-3    { margin-top: 25%; }
 .row .offset-t-4    { margin-top: 33.33333%; }
 .row .offset-t-5    { margin-top: 41.66667%; }
-.row .offset-t-1    { margin-top: 8.33333%; }
 .row .offset-t-6    { margin-top: 50%; }
 .row .offset-t-7    { margin-top: 58.33333%; }
 .row .offset-t-8    { margin-top: 66.66667%; }

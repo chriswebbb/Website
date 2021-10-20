@@ -27,7 +27,7 @@ class About extends Component {
       <section id="about">
 
       <div className="row">
-         <div className="eight columns main-col">
+         <div className="eight columns offset-t-1-9 main-col">
             <h2>About Me</h2>
             <p>{bio}</p>
             <div className="row">
@@ -42,7 +42,7 @@ class About extends Component {
                </div>
             </div>
          </div>
-         <div className="four columns ">
+         <div className="four offset-t-1-9 columns ">
             <img className="profile-pic"  src={profilepic} alt="Profile Pic isn't loading" />
             <div className="main-col">
                <ul className="social">
