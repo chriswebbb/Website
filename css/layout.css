@@ -470,6 +470,10 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+div.icons{
+   padding-bottom: 15px;
+}
+
 div.icons div.columns{
    outline: 1px solid #7c00f0;
    vertical-align: middle!important;
@@ -478,6 +482,34 @@ div.icons div.columns{
    padding: 10px;
    margin: 15px;
    font-size: 5em;
+}
+
+div.icons div.columns:hover{
+   transform: scale(1.05);
+}
+
+
+div.icons div.overlay div.gotya{
+   position: relative;
+   left: 0;
+   top: 0;
+
+   font-size: 0px;
+   
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+
+}
+div.icons div.overlay div.columns div.gotya:hover{
+   opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
 }
 
 /*
@@ -683,12 +715,19 @@ div.icons div.columns{
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
+
+.portfolio-item:hover{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+
 .portfolio-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-
 
 /* popup modal */
 
