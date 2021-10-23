@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {CgArrowUpR} from 'react-icons/cg';
 
 class Footer extends Component {
   render() {
@@ -23,7 +24,7 @@ class Footer extends Component {
            </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><CgArrowUpR/></a></div>
      </div>
   </footer>
     );
