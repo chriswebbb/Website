@@ -30,22 +30,33 @@ class About extends Component {
          <div className="twelve columns">
             <h2><span>A little about myself</span></h2>
          </div>
+
          <div className="eight columns offset-t-1-9 main-col">
 
-            <h2>About Me</h2>
-            <p>{bio}</p>
             <div className="row">
-               <div className="columns contact-details">
+               <div className="three columns">
+                  <h2>About Me</h2>
+               </div>
+               <div className="nine columns">
+                  <p>{bio}</p>
+               </div>
+               <div className="columns download">
+               </div>
+            </div>
+
+            <div className="row">
+               <div className="three columns contact-details">
                   <h2>Contact Details</h2>
+               </div>
+               <div className = "nine columns">
                   <p className="address">
 						   {name}<br />
                      {email}
 					   </p>
                </div>
-               <div className="columns download">
-               </div>
             </div>
          </div>
+
          <div className="four offset-t-1-9 columns ">
             <img className="profile-pic"  src={profilepic} alt="Profile Pic isn't loading" />
             <div className="main-col">

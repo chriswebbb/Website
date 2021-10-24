@@ -6,8 +6,6 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import CV from './Components/CV';
-import Contact from './Components/Contact';
-import References from './Components/References';
 import Portfolio from './Components/Portfolio';
 
 class App extends Component {

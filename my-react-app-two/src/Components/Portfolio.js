@@ -17,7 +17,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
-            <p className="defaultText">{projects.description}</p>
+            <p className="portfolio-text">{projects.description}</p>
             </a>
           </div>  
         </div>

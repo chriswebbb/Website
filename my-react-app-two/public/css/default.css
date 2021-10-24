@@ -447,6 +447,7 @@ input::-moz-focus-inner {
    background-color: #ebeeee;
    background: #ffffff;
    border: 2px solid #7c00f0;
+   box-shadow: 0px 0px 0px 0px #ffffff;
 }
 
 .grid-style:hover{
