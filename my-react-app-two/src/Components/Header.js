@@ -90,7 +90,7 @@ class Header extends Component {
                <div className="six columns center">
                   <h3 className="responsive"> Hello,</h3>
                   <div className="">
-                     <h2>I'm <span>{name}</span></h2>
+                     <h2 className="responsive">I'm <span>{name}</span></h2>
                      <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic engineer.", "Developer." ]'>
                      </h3>
                   </div>               
