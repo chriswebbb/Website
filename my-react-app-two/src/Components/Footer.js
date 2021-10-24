@@ -24,7 +24,13 @@ class Footer extends Component {
            </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><CgArrowUpR/></a></div>
+        <div id="go-top">
+          <a className="smoothscroll" title="Back to Top" href="#home">
+            <div>
+              <CgArrowUpR/>
+            </div>
+            </a>
+        </div>
      </div>
   </footer>
     );

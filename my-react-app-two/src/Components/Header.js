@@ -87,7 +87,7 @@ class Header extends Component {
       <div className="banner">
          <div className="row">
             <div className="banner-text">
-               <div className="six columns center">
+               <div className="six columns">
                   <h3 className="responsive"> Hello,</h3>
                   <div className="">
                      <h2 className="responsive">I'm <span>{name}</span></h2>

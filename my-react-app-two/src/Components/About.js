@@ -27,15 +27,19 @@ class About extends Component {
       <section id="about">
 
       <div className="row">
+         <div className="twelve columns">
+            <h2><span>A little about myself</span></h2>
+         </div>
          <div className="eight columns offset-t-1-9 main-col">
+
             <h2>About Me</h2>
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-                     <span>{email}</span>
+						   {name}<br />
+                     {email}
 					   </p>
                </div>
                <div className="columns download">
