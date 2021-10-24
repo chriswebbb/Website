@@ -4,7 +4,7 @@
     "occupation": "Electrical and Electronic engineer",
     "description": "I enjoy learning new things and pride myself on beinbg able to overcome any obsticle I might be faced with. Also working as part of a team excites me, discussing problems and then overcoming them with peers .",
     "image": "profilepic.jpg",
-    "bio": "Need to talk about myself which is a load of wank.",
+    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton. I am in love with learning new concepts and acting on new ideas.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "chriswebbb99@gmail.com",
     "phone": "Not Yet",
@@ -57,7 +57,7 @@
         "school": "Havering Sixth Form College",
         "degree": "Finished A-levels with A* in Mathematics and Physics and a B in Computer Science",
         "graduated": "Graduated July 2019",
-        "description": "Due to circumstances out of my control my initial attempt at A-levels were adequate but not what I wanted. So I retook my A-levels within the college I worked at"
+        "description": ""
       }
     ],
     "work": [
@@ -94,28 +94,28 @@
         "category": "C",
         "image": "tesseract.gif",
         "url": "https://github.com/chriswebbb/GameEngine-Using-C-and-OpenGL",
-        "description":"My own custom OpenGL framework to allow easy GPU rendering. This cube was created with said framework along with using a brownian motion based fragment shader."
+        "description":"My open source custom OpenGL framework to allow easy and quick use of GPU rendering. This cube was created with said framework along with a brownian motion based fragment shader."
       },
       {
         "title": "MIPS Emulator",
         "category": "C++",
         "image": "MIPS_processor_.png",
         "url": "https://github.com/chriswebbb/MIPS_Emulator",
-        "description":"Microprocessor without Interlocked Pipelined Stages (MIPS) Emulator"
+        "description":"Microprocessor without Interlocked Pipelined Stages (MIPS) Emulator along with custom built assmbler."
       },
       {
         "title": "Website Code",
         "category": "React",
         "image": "Website_Code.png",
         "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master",
-        "description":"So we eat ass"
+        "description":"The code for this current website."
       },
       {
         "title": "MIPS Emulator",
         "category": "",
         "image": "PCB.jpg",
         "url": "https://github.com/chriswebbb/MIPS_Emulator",
-        "description":""
+        "description":"My own custom RFID scanner project, with both circuit and PCB designs"
       },
       {
         "title": "Website Code",
