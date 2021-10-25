@@ -4,7 +4,7 @@
     "occupation": "Electrical and Electronic engineer",
     "description": "I enjoy learning new things and pride myself on beinbg able to overcome any obsticle I might be faced with. Also working as part of a team excites me, discussing problems and then overcoming them with peers .",
     "image": "profilepic.jpg",
-    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton. I am in love with learning new concepts and acting on new ideas.",
+    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am in love with learning new concepts and acting on new ideas.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "chriswebbb99@gmail.com",
     "phone": "Not Yet",
@@ -18,19 +18,15 @@
     "cvdownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/",
+        "url": "https://www.linkedin.com/in/christian-webb-1a0078224/",
         "className": "fa fa-linkedin"
+      },
+
+      {
+        "name": "github",
+        "url": "http://github.com/chriswebbb",
+        "className": "fa fa-github"
       },
       {
         "name": "instagram",
@@ -38,20 +34,20 @@
         "className": "fa fa-instagram"
       },
       {
-        "name": "github",
-        "url": "http://github.com/chriswebbb",
-        "className": "fa fa-github"
+        "name": "twitter",
+        "url": "https://twitter.com/chriswebbb__",
+        "className": "fa fa-twitter"
       }
     ]
   },
   "cv": {
-    "skillmessage": "Below are the programming languages, along with software I believe I am proficient with.",
+    "skillmessage": "",
     "education": [
       {
         "school": "University of Southampton",
         "degree": "MEng in Electrical and Electronic Engineering",
-        "graduated": "September 2019 - Present ( Graduate in 2023 )",
-        "description": "Describe and or link to projects."
+        "graduated": "September 2019 - Present ( Graduate in June 2023 )",
+        "description": ""
       },
       {
         "school": "Havering Sixth Form College",
@@ -116,32 +112,6 @@
         "image": "PCB.jpg",
         "url": "https://github.com/chriswebbb/MIPS_Emulator",
         "description":"My own custom RFID scanner project, with both circuit and PCB designs"
-      },
-      {
-        "title": "Website Code",
-        "category": "",
-        "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master",
-        "description":""
-      },
-      {
-        "title": "Website Code",
-        "category": "",
-        "image": "tesseract.gif",
-        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master",
-        "description":""
-      }
-    ]
-  },
-  "references": {
-    "references": [
-      {
-        "text": "Grand Booty",
-        "user": "Jeff Bezos"
-      },
-      {
-        "text": "Small pp",
-        "user": "Senpai"
       }
     ]
   }
