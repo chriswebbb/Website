@@ -28,7 +28,7 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns">
-          <h1><span>Some of My personal Work</span></h1>
+          <h1><span>Projects</span></h1>
           </div>
           <div className="twelve columns">
           <div id="portfolio-wrapper" className="grid-container bgrid-quarters s-bgrid-thirds">

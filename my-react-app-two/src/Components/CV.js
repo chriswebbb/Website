@@ -27,8 +27,6 @@ class CV extends Component {
     return (
     <section id="cv">
 
-      
-
       <div className="row education">
         <div className="columns twelve">
           <h1><span>Curriculum Vitae</span></h1>
@@ -94,9 +92,7 @@ class CV extends Component {
               <div className="columns">
                 <SiReact title="React"/>
               </div>
-              <div className="columns">
-                <SiOpengl title="OpenGL"/>
-              </div>
+
               <div className="columns">
                 <SiCss3 title="css"/>
               </div>     
@@ -106,7 +102,7 @@ class CV extends Component {
             </div>
           </div>
 
-          <h1>Software
+          <h1>Software/APIs
             </h1>
 
           <div className="icons row">
@@ -119,6 +115,9 @@ class CV extends Component {
             <div className="columns">
               <SiBlender title="Blender"/>
             </div> 
+            <div className="columns">
+              <SiOpengl title="OpenGL"/>
+            </div>
           </div>
 
 			  </div>

@@ -78,25 +78,25 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a className="smoothscroll" href="#about">Info</a></li>
 	         <li><a className="smoothscroll" href="#cv">CV</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a className="smoothscroll" href="#portfolio">projects</a></li>
          </ul>
       </nav>
 
       <div className="banner">
          <div className="row">
             <div className="banner-text">
-               <div className="six columns">
+               <div className="eight columns">
                   <h3 className="responsive"> Hello,</h3>
                   <div className="">
                      <h2 className="responsive">I'm <span>{name}</span></h2>
-                     <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic engineer.", "Developer." ]'>
+                     <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic engineer.", "Control Engineer.", "Open source contributor." ]'>
                      </h3>
                   </div>               
                </div>            
-               <div className="six columns">
-                  <img src="images/profilepic.jpg" alt="Profile Pic isn't loading" />
+               <div className="four columns">
+                  <img src="images/ghost-31324_1280.png" alt="Profile Pic isn't loading" />
                </div>
             </div>
          </div>
