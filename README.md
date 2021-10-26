@@ -56,9 +56,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple template for a portfolio or resume
-Use the `BLANK_README.md` to get started.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
