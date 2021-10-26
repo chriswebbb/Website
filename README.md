@@ -56,8 +56,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Built With
 
 * [React.js](https://reactjs.org/)
