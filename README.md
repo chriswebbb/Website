@@ -16,10 +16,6 @@
     Click the link to view said webpage
     <br />
     <a href="https://www.christianwebb.me">View Webpage</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues"></a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues"></a>
   </p>
 </div>
 
