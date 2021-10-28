@@ -116,7 +116,7 @@
       {
         "title": "Microprocessor in SV",
         "category": "SystemVerilog",
-        "image": "Screenshot_5.png",
+        "image": "processor.png",
         "url": "https://github.com/chriswebbb/Microprocessor_Design_SystemVerilog",
         "description":"A basic Microprocessor design using systemverilog"
       },
