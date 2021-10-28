@@ -112,6 +112,27 @@
         "image": "PCB.jpg",
         "url": "https://drive.google.com/drive/folders/1LG5Whl0UfL-EIXUC9LM9KJQvEHv3aXUw?usp=sharing",
         "description":"My own custom RFID scanner project, with both circuit and PCB designs"
+      },      
+      {
+        "title": "Microprocessor in SV",
+        "category": "SystemVerilog",
+        "image": "PCB.jpg",
+        "url": "https://github.com/chriswebbb/Microprocessor_Design_SystemVerilog",
+        "description":"A basic Microprocessor design using systemverilog"
+      },
+      {
+        "title": "Finite Impusle Response filter in SV",
+        "category": "SystemVerilog",
+        "image": "PCB.jpg",
+        "url": "https://github.com/chriswebbb/Finite_Impusle_Response",
+        "description":"A basic FIR filter written in systemn verilog, also comes with files to upload to an FPGA."
+      },
+      {
+        "title": "n-bit sequential multiplier",
+        "category": "SystemVerilog",
+        "image": "PCB.jpg",
+        "url": "https://github.com/chriswebbb/n-bit-unsigned-binary-sequential-multiplier",
+        "description":"A basic sequential multiplier written in system verilog, where the number of bits used is determined by a single value n."
       }
     ]
   }
