@@ -4,7 +4,7 @@
     "occupation": "Electrical and Electronic engineer",
     "description": "I enjoy learning new things and pride myself on beinbg able to overcome any obsticle I might be faced with. Also working as part of a team excites me, discussing problems and then overcoming them with peers .",
     "image": "profilepic.jpg",
-    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am in love with learning new concepts and acting on new ideas.",
+    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am an ambitious and dedicated individual, with an aptitude in problem-solving, communication and collaboration, coupled with strong leadership skills and effective organisation. I am passionate about learning the complex and elaborate inner workings of our reality and how I can make it better.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "chriswebbb99@gmail.com",
     "phone": "Not Yet",
@@ -14,15 +14,14 @@
       "state": "",
       "zip": ""
     },
-    "website": "http://www.timbakerdev.com",
-    "cvdownload": "http://timbakerdev.com",
+    "website": "www.christianwebb.me",
+    "cvdownload": "",
     "social": [
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/christian-webb-1a0078224/",
         "className": "fa fa-linkedin"
       },
-
       {
         "name": "github",
         "url": "http://github.com/chriswebbb",
@@ -107,11 +106,32 @@
         "description":"The code for this current website."
       },
       {
-        "title": "MIPS Emulator",
+        "title": "RFID",
         "category": "",
         "image": "PCB.jpg",
-        "url": "https://github.com/chriswebbb/MIPS_Emulator",
+        "url": "https://drive.google.com/drive/folders/1LG5Whl0UfL-EIXUC9LM9KJQvEHv3aXUw?usp=sharing",
         "description":"My own custom RFID scanner project, with both circuit and PCB designs"
+      },      
+      {
+        "title": "Microprocessor in SV",
+        "category": "SystemVerilog",
+        "image": "processor.png",
+        "url": "https://github.com/chriswebbb/Microprocessor_Design_SystemVerilog",
+        "description":"A basic Microprocessor design using systemverilog"
+      },
+      {
+        "title": "Finite Impusle Response filter in SV",
+        "category": "SystemVerilog",
+        "image": "300px-FIR_Filter.png",
+        "url": "https://github.com/chriswebbb/Finite_Impusle_Response",
+        "description":"A basic FIR filter written in systemn verilog, also comes with files to upload to an FPGA."
+      },
+      {
+        "title": "n-bit sequential multiplier",
+        "category": "SystemVerilog",
+        "image": "Screenshot_2.png",
+        "url": "https://github.com/chriswebbb/n-bit-unsigned-binary-sequential-multiplier",
+        "description":"A basic sequential multiplier written in system verilog, where the number of bits used is determined by a single value n."
       }
     ]
   }

@@ -91,7 +91,7 @@ class Header extends Component {
                   <h3 className="responsive"> Hello,</h3>
                   <div className="">
                      <h2 className="responsive">I'm <span>{name}</span></h2>
-                     <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic engineer.", "Control Engineer.", "Open source contributor." ]'>
+                     <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic Engineer.", "With Experiance In.", "Control Engineering.","Computer Engineering.","Embedded Programming.","Circuit Design and Testing.", "And A Whole List Of Other Things Which You Can Find Below." ]'>
                      </h3>
                   </div>               
                </div>            
