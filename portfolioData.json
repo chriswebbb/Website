@@ -4,7 +4,7 @@
     "occupation": "Electrical and Electronic engineer",
     "description": "I enjoy learning new things and pride myself on beinbg able to overcome any obsticle I might be faced with. Also working as part of a team excites me, discussing problems and then overcoming them with peers .",
     "image": "profilepic.jpg",
-    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am in love with learning new concepts and acting on new ideas.",
+    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am an ambitious and dedicated individual, with an aptitude in problem-solving, communication and collaboration, coupled with strong leadership skills and effective organisation. I am passionate about learning the complex and elaborate inner workings of our reality and how I can make it better.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "chriswebbb99@gmail.com",
     "phone": "Not Yet",
@@ -14,7 +14,7 @@
       "state": "",
       "zip": ""
     },
-    "website": "",
+    "website": "www.christianwebb.me",
     "cvdownload": "",
     "social": [
       {
@@ -22,7 +22,6 @@
         "url": "https://www.linkedin.com/in/christian-webb-1a0078224/",
         "className": "fa fa-linkedin"
       },
-
       {
         "name": "github",
         "url": "http://github.com/chriswebbb",
