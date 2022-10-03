@@ -1,76 +1,204 @@
 import React, { Component } from 'react';
-
-var TxtType = function(el, toRotate, period) {
-   this.toRotate = toRotate;
-   this.el = el;
-   this.loopNum = 0;
-   this.period = parseInt(period, 10) || 2000;
-   this.txt = '';
-   this.tick();
-   this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-   var i = this.loopNum % this.toRotate.length;
-   var fullTxt = this.toRotate[i];
-
-   if (this.isDeleting) {
-   this.txt = fullTxt.substring(0, this.txt.length - 1);
-   } else {
-   this.txt = fullTxt.substring(0, this.txt.length + 1);
-   }
-
-   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-   var that = this;
-   var delta = 100 - Math.random() * 50;
-
-   if (this.isDeleting) { delta /= 2; }
-
-   if (!this.isDeleting && this.txt === fullTxt) {
-   delta = this.period;
-   this.isDeleting = true;
-   } else if (this.isDeleting && this.txt === '') {
-   this.isDeleting = false;
-   this.loopNum++;
-   delta = 250;
-   }
-
-   setTimeout(function() {
-   that.tick();
-   }, delta);
-};
-
-window.onload = function() {
-   var elements = document.getElementsByClassName('typewrite');
-   for (var i=0; i<elements.length; i++) {
-       var toRotate = elements[i].getAttribute('data-type');
-       var period = elements[i].getAttribute('data-period');
-       if (toRotate) {
-         new TxtType(elements[i], JSON.parse(toRotate), period);
-       }
-   }
-   var css = document.createElement("style");
-   css.type = "text/css";
-   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-   document.body.appendChild(css);
-};
+import { Link } from "react-router-dom";
+import ThreeDApp from './ThreeDApp';
+import {SiNpm, SiCoursera, SiCplusplus, SiPython, SiAutodesk, SiJavascript, SiNodedotjs, SiReact, SiWolfram, SiOpengl, SiBlender, SiCss3} from 'react-icons/si';
+import {ImEmbed2} from 'react-icons/im';
 
 class Header extends Component {
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+    if(this.props.data.main){
+      var name = this.props.data.main.name;
+      var occupation= this.props.data.main.occupation;
+      var description= this.props.data.main.description;
+      // var city= this.props.data.address.city;
+      var profilepic= "images/"+this.props.data.main.image;
+      var bio = this.props.data.main.bio;
+      //var street = this.props.data.address.street;
+     //var city = this.props.data.address.city;
+      //var state = this.props.data.address.state;
+      //var zip = this.props.data.address.zip;
+      //var phone= this.props.data.phone;
+      //var email = this.props.data.email;
+      var cvDownoad = this.props.data.main.cvDownoad;
+      //var skillmessage = this.props.data.skillmessage;
+      var networks= this.props.data.main.social.map(function(network){
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
+
+      var skillmessage = this.props.data.cv.skillmessage;
+      var education = this.props.data.cv.education.map(function(education){
+        return <div key={education.school}><h3>{education.school}</h3>
+        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+        <p>{education.description}</p></div>
+      })
+      var skillsProg = this.props.data.cv.skills.prog.map(function(program){
+         return <div class="skill">
+            <div>
+               <p>{program.name}</p>
+               <footer>
+                  <div data-width = {program.level}></div>
+               </footer>
+            </div>
+         </div>
+      })
+      var skillsSoft = this.props.data.cv.skills.soft.map(function(software){
+         return <div class="skill">
+            <div>
+               <p>{software.name}</p>
+               <footer>
+                  <div data-width = {software.level}></div>
+               </footer>
+            </div>
+         </div>
       })
     }
 
     return (
-   <header id="home">
+   <div>
+      <section id="splash">
+         <div id="webGlBack">
+            <ThreeDApp/>
+         </div>
+      </section>
+
+      <section id="about">
+         <div className="row">
+            <div className="twelve columns">
+               <h2><span>who</span></h2>
+            </div>
+
+            <div className="eight columns offset-t-1-9 main-col">
+               <div className="row">
+               </div>
+               <div className="row">
+                  <div className="twelve columns">
+                     <p>{bio}</p>
+                  </div>
+               </div>            
+            </div>
+
+            <div className="four offset-t-1-9 columns ">
+               <img className="profile-pic"  src={profilepic} alt="Profile Pic isn't loading" />
+               <div className="download">
+                     <p>
+                        <a href={cvDownoad} className="button"><i className="fa fa-download"></i>Download CV</a>
+                     </p>
+                  </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="cv">
+      <h1><span>what</span></h1>
+      I can do these tings init fam, like do you get me init.
+      <h1>Programming languages</h1>
+         <div id="right">
+          <div className="icons row">
+            <div className="overlay">
+              <div className="columns">
+                <SiCoursera title="C"/>
+              </div>
+              <div className="columns">
+                <SiCplusplus title="C++"/>
+              </div>            
+              <div className="columns">
+                <ImEmbed2 title="Embedded Programming"/>
+              </div>
+              <div className="columns">
+                <SiPython title="Python"/>
+              </div>
+              <div className="columns">
+                <SiJavascript title="JavaScript"/>
+              </div>
+              <div className="columns">
+                <SiNodedotjs title="Node.JS"/>
+              </div>
+              <div className="columns">
+                <SiReact title="React"/>
+              </div>
+
+              <div className="columns">
+                <SiCss3 title="css"/>
+              </div>     
+              <div className="columns">
+                <SiNpm title="NPM"/>
+              </div>     
+            </div>
+          </div>
+         </div>
+
+          <h1>Software/APIs
+            </h1>
+
+          <div className="icons row">
+            <div className="columns">
+              <SiAutodesk title="AutoDesk"/>
+            </div>
+            <div className="columns">
+                <SiWolfram title="Mathematica"/>
+            </div>
+            <div className="columns">
+              <SiBlender title="Blender"/>
+            </div> 
+            <div className="columns">
+              <SiOpengl title="OpenGL"/>
+            </div>
+          </div>
+
+          <div>
+            {skillsProg}
+          </div>
+      </section>
+
+      <section id="where">
+         <h1><span>where</span></h1>
+         <div className="row education">
+        <div className="columns twelve">
+          <h1><span>Curriculum Vitae</span></h1>
+        </div>
+        <div className="two columns header-col">
+          <h1>Education</h1>
+        </div>
+
+        <div className="ten columns main-col">
+          <div className="row item">
+              <div className="twelve columns">
+                {education}
+              </div>
+          </div>
+        </div>
+      </div>
+         
+      </section>
+
+      <nav>
+         <ul id="navi_route">
+            <li>
+               <Link to="/">CW</Link>
+            </li>
+            <li>
+               <Link to="/Portfolio">PROJECTS</Link>
+            </li>
+            <li>
+               <Link to="/Contact">CONTACT</Link>
+            </li>
+         </ul> 
+         <ul id="navi_social">
+           {networks}
+         </ul>
+      </nav>
+   </div>
+    );
+  }
+}
+/*
+         <div id="header_content">
+            <h3 href="" className="typewrite" data-period="3000" data-type='[ "Hello", "I am Christian", "An Electrical and Electronic Engineer.", "With Experiance In.", "Control Engineering.","Computer Engineering.","Embedded Programming.","Circuit Design and Testing.", "And A Whole List Of Other Things Which You Can Find Below." ]'></h3>               
+         </div>
+*/
+/*
+      <!--
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -82,31 +210,9 @@ class Header extends Component {
 	         <li><a className="smoothscroll" href="#cv">CV</a></li>
             <li><a className="smoothscroll" href="#portfolio">projects</a></li>
          </ul>
-      </nav>
+      </nav> 
+      -->
 
-      <div className="banner">
-         <div className="row">
-            <div className="banner-text">
-               <div className="eight columns">
-                  <h3 className="responsive"> Hello,</h3>
-                  <div className="">
-                     <h2 className="responsive">I'm <span>{name}</span></h2>
-                     <h3 href="" class="typewrite" data-period="3000" data-type='[ "An Electrical and Electronic Engineer.", "With Experiance In.", "Control Engineering.","Computer Engineering.","Embedded Programming.","Circuit Design and Testing.", "And A Whole List Of Other Things Which You Can Find Below." ]'>
-                     </h3>
-                  </div>               
-               </div>            
-               <div className="four columns">
-                  <img src="images/ghost-31324_1280.png" alt="Profile Pic isn't loading" />
-               </div>
-            </div>
-         </div>
-
-      </div>
-   </header>
-    );
-  }
-}
-/*
 <div className="row banner">
 <div className="banner-text">
    <h1 href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Christian.", "I am an Electrical and Electronic engineer." ]'>

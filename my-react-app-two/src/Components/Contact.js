@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Contact extends Component {
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+    if(this.props.data.main){
+      var name = this.props.data.main.name;
+      var phone= this.props.data.main.phone;
+      var email = this.props.data.main.email;
+      var message = this.props.data.main.contactmessage;
+      var networks= this.props.data.main.social.map(function(network){
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
     }
 
     return (
       <section id="contact">
-
          <div className="row section-head">
 
             <div className="two columns header-col">
@@ -106,6 +105,22 @@ class Contact extends Component {
 		         </div>
             </aside>
       </div>
+      <nav>
+         <ul id="navi_route">
+            <li>
+               <Link to="/">CW</Link>
+            </li>
+            <li>
+               <Link to="/Portfolio">PROJECTS</Link>
+            </li>
+            <li>
+               <Link to="/Contact">CONTACT</Link>
+            </li>
+         </ul> 
+         <ul id="navi_social">
+           {networks}
+         </ul>
+      </nav>
    </section>
     );
   }

@@ -1,0 +1,138 @@
+{
+  "main": {
+    "name": "Christian Webb",
+    "occupation": "Electrical and Electronic engineer",
+    "description": "I enjoy learning new things and pride myself on beinbg able to overcome any obsticle I might be faced with. Also working as part of a team excites me, discussing problems and then overcoming them with peers .",
+    "image": "profilepic.jpg",
+    "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am an ambitious and dedicated individual, with an aptitude in problem-solving, communication and collaboration, coupled with strong leadership skills and effective organisation. I am passionate about learning the complex and elaborate inner workings of our reality and how I can make it better.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "chriswebbb99@gmail.com",
+    "phone": "Not Yet",
+    "address": {
+      "street": "",
+      "city": "London",
+      "state": "",
+      "zip": ""
+    },
+    "website": "www.christianwebb.me",
+    "cvdownload": "",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/christian-webb-1a0078224/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/chriswebbb",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/chriswebbb_",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/chriswebbb__",
+        "className": "fa fa-twitter"
+      }
+    ]
+  },
+  "cv": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "University of Southampton",
+        "degree": "MEng in Electrical and Electronic Engineering",
+        "graduated": "September 2019 - Present ( Graduate in June 2023 )",
+        "description": ""
+      },
+      {
+        "school": "Havering Sixth Form College",
+        "degree": "Finished A-levels with A* in Mathematics and Physics and a B in Computer Science",
+        "graduated": "Graduated July 2019",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Havering Sixth Form College",
+        "title": "Physics Technician",
+        "years": "September 2018 - July 2019",
+        "description": "As apart of the job I would setup up lab experiments for the students and then help with carrying out said experiments. Once completed, myself and the leading teacher would mark their logbooks and provide feedback. I would also tutor students who were falling behind and needed help."
+      }
+    ],
+    "skills": [
+      {
+        "name": "C",
+        "level": "100%"
+      },
+      {
+        "name": "C++",
+        "level": "100%"
+      },
+      {
+        "name": "MATLAB",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "OpenGL Framework",
+        "category": "C",
+        "image": "tesseract.gif",
+        "url": "https://github.com/chriswebbb/GameEngine-Using-C-and-OpenGL",
+        "description":"My open source custom OpenGL framework to allow easy and quick use of GPU rendering. This cube was created with said framework along with a brownian motion based fragment shader."
+      },
+      {
+        "title": "MIPS Emulator",
+        "category": "C++",
+        "image": "MIPS_processor_.png",
+        "url": "https://github.com/chriswebbb/MIPS_Emulator",
+        "description":"Microprocessor without Interlocked Pipelined Stages (MIPS) Emulator along with custom built assmbler."
+      },
+      {
+        "title": "Website Code",
+        "category": "React",
+        "image": "Website_Code.png",
+        "url": "https://github.com/chriswebbb/chriswebbb.github.io/tree/master",
+        "description":"The code for this current website."
+      },
+      {
+        "title": "RFID",
+        "category": "",
+        "image": "PCB.jpg",
+        "url": "https://drive.google.com/drive/folders/1LG5Whl0UfL-EIXUC9LM9KJQvEHv3aXUw?usp=sharing",
+        "description":"My own custom RFID scanner project, with both circuit and PCB designs"
+      },      
+      {
+        "title": "Microprocessor in SV",
+        "category": "SystemVerilog",
+        "image": "processor.png",
+        "url": "https://github.com/chriswebbb/Microprocessor_Design_SystemVerilog",
+        "description":"A basic Microprocessor design using systemverilog"
+      },
+      {
+        "title": "Finite Impusle Response filter in SV",
+        "category": "SystemVerilog",
+        "image": "300px-FIR_Filter.png",
+        "url": "https://github.com/chriswebbb/Finite_Impusle_Response",
+        "description":"A basic FIR filter written in systemn verilog, also comes with files to upload to an FPGA."
+      },
+      {
+        "title": "n-bit sequential multiplier",
+        "category": "SystemVerilog",
+        "image": "Screenshot_2.png",
+        "url": "https://github.com/chriswebbb/n-bit-unsigned-binary-sequential-multiplier",
+        "description":"A basic sequential multiplier written in system verilog, where the number of bits used is determined by a single value n."
+      }
+    ]
+  }
+}

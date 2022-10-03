@@ -7,12 +7,8 @@
     "bio": "I am currently in my third year of my MEng in Electrical and Electronic Engineering at the University of Southampton, accredited by IET and IEEE. I am an ambitious and dedicated individual, with an aptitude in problem-solving, communication and collaboration, coupled with strong leadership skills and effective organisation. I am passionate about learning the complex and elaborate inner workings of our reality and how I can make it better.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "chriswebbb99@gmail.com",
-    "phone": "Not Yet",
     "address": {
-      "street": "",
-      "city": "",
-      "state": "",
-      "zip": ""
+      "city": "London"
     },
     "website": "www.christianwebb.me",
     "cvdownload": "",
@@ -29,7 +25,7 @@
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/chriswebbb_",
+        "url": "http://instagram.com/christianwebbb_",
         "className": "fa fa-instagram"
       },
       {
@@ -63,7 +59,8 @@
         "description": "As apart of the job I would setup up lab experiments for the students and then help with carrying out said experiments. Once completed, myself and the leading teacher would mark their logbooks and provide feedback. I would also tutor students who were falling behind and needed help."
       }
     ],
-    "skills": [
+    "skills": {
+      "prog": [
       {
         "name": "C",
         "level": "100%"
@@ -80,7 +77,26 @@
         "name": "Python",
         "level": "80%"
       }
-    ]
+      ],
+      "soft":[
+        {
+          "name": "C",
+          "level": "100%"
+        },
+        {
+          "name": "C++",
+          "level": "100%"
+        },
+        {
+          "name": "MATLAB",
+          "level": "80%"
+        },
+        {
+          "name": "Python",
+          "level": "80%"
+        }
+        ]  
+    }
   },
   "portfolio": {
     "projects": [

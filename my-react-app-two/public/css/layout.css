@@ -36,7 +36,7 @@
  
  /* Handle on hover */
  ::-webkit-scrollbar-thumb:hover {
-   background: rgba(255, 255, 255, 0.5); 
+   background: rgba(255, 2, 2, 0.5); 
  }
 
  /*Gets rid of the scrollbar entirely*/
@@ -54,31 +54,39 @@ body { background: #000000; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-header {
-   position: relative;
-   height: 1000px;
-   min-height: 500px;
+div#canvas-container{
+   position: absolute;
    width: 100%;
-   background: #161415; /*url(../images/4k-space-wallpaper-6.jpg) no-repeat center center;*/
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
-   background-attachment: fixed;
-   outline: 4px solid rgb(255, 255, 255);
-   outline-offset: -25px;
+   height: 100vh;
+   display: inline-block;
+   transition: opacity 1500ms ease-out;
+   border: 1px solid #ffffff;
 }
 
-/* vertically center banner section */
-header:before {
-   content: '';
-   display: inline-block;
-   vertical-align: middle;
-   height: 100%;
+header {
+   width: 100%;
+   background: Transparent; /*url(../images/4k-space-wallpaper-6.jpg) no-repeat center center;*/
+   -webkit-background-size: cover !important;
+   background-size: cover !important;
+   text-align: center;
+   background-attachment: fixed;
+   outline: 0px solid rgb(255, 255, 255);
+   outline-offset: -25px;
+   position: absolute;
 }
 
 .border{
-   border: 2px solid #fff;
+   border: 0px solid #fff;
+}
+
+div#header_content {
+   display: flex;
+   align-content: stretch;
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 90%;
+   align-items: center;
+   justify-content: center;
 }
 
 header .banner {
@@ -86,8 +94,9 @@ header .banner {
    vertical-align: middle;
    text-align: left;
    margin: auto;
-   width: 85%;
+   width: 100%;
    padding-bottom: 30px;
+   height: 100vh;
 }
 
 header .banner-text { 
@@ -99,7 +108,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-   font: 30px/1.1em "Courier New", monospace;
+   font: 30px/1em Helvetica, Arial, sans-serif;
    color: #fff;
    letter-spacing: -2px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -107,7 +116,7 @@ header .banner-text h1 {
 }
 
 header .banner-text h2 {
-   font: 35px/1.1em "Courier New", monospace;
+   font: 35px/1.1em Helvetica, Arial, sans-serif;
    color: #fff;
    letter-spacing: -2px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -117,7 +126,7 @@ header .banner-text h2 {
 }
 
 header .banner-text h3 {
-   font: 25px/1.1em "Courier New", monospace;
+   font: 25px/1.1em Helvetica, Arial, sans-serif;
    color: #fff;
    letter-spacing: -2px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -161,57 +170,37 @@ header div.columns img{
    text-align: center;
 }
 
+section#splash{
+   height: 100vh;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
-#nav-wrap ul, #nav-wrap li, #nav-wrap a {
-	 margin: 0;
-	 padding: 0;
-	 border: none;
-	 outline: none;
-}
 
-#nav-wrap ul, #nav-wrap li, #nav-wrap a:hover {
-   color: #7c00f0;
-}
-
-/* nav-wrap */
-#nav-wrap {
-   font: 12px "Courier New", monospace;
-   width: 100%;
-   text-transform: uppercase;
-   letter-spacing: 2.5px;
-   margin: 0 auto;
-   z-index: 100;
-   position: fixed;
-   left: 0;
-   top: 0;
-}
-.opaque { background-color: #333; }
-
-header nav{
-   margin-top: 10px;
-}
-/* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
-
-ul#nav {
-   min-height: 48px;
-   width: auto;
-
-   /* right align the menu */
-   text-align: right;
-   margin-top: 15px;
-   margin-right: 25px;
-   
-}
-ul#nav li {
-   position: relative;
-   list-style: none;
-   height: 48px;
+ul {
    display: inline-block;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   font-size: 20px;
 }
 
-/* Links */
+ul#navi_route{
+   display: inline-block;
+   float: left;
+}
+
+ul#navi_social {
+   display: inline-block;
+   float: right;
+}
+
+nav{
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
 ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
@@ -230,11 +219,17 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
+ul#nav li a:active { background-color: #000000 ; }
 ul#nav li.current a { 
    text-align: left;
    text-decoration: underline;
    text-decoration-style: normal;
+}
+
+div#typewriter
+{
+   margin: auto;
+   font-size: 25px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -243,17 +238,17 @@ ul#nav li.current a {
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
    overflow: hidden;
+   padding-top: 50px;
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #7c00f0; }
 
+a:hover {color: #7c00f0}
 
 #about h2 {
-   font: 22px/30px "Courier New", monospace;
+   font: 22px/30px Helvetica, Arial, sans-serif;
    color: #fff;
    margin-bottom: 0px;
 }
@@ -316,13 +311,15 @@ ul#nav li.current a {
    padding-top: 0px;
    padding-bottom: 72px;
    overflow: hidden;
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
-#cv a, #cv a:visited  { color: #11ABB0; }
-#cv a:hover, #cv a:focus { color: #313131; }
+#cv a  { color: #ffffff; }
+#cv a:hover { color: #7c00f0; }
 
 #cv h1 {
-   font: 22px/30px "Courier New", monospace;
+   font: 22px/30px Helvetica, Arial, sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #ffffff;
@@ -331,9 +328,10 @@ ul#nav li.current a {
 }
 #cv h1 span {
    border-bottom: 3px solid #7c00f0;
+   float:right;
 }
 #cv h3 {
-   font: 25px/30px "Courier New", monospace;
+   font: 25px/30px Helvetica, Arial, sans-serif;
    color: #ffffff;
 }
 
@@ -346,7 +344,7 @@ ul#nav li.current a {
    border-bottom: 1px solid #E8E8E8;
 }
 #cv .info {
-   font: 16px/24px "Courier New", monospace;
+   font: 16px/24px Helvetica, Arial, sans-serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -356,7 +354,7 @@ ul#nav li.current a {
    margin-left: 0px;
 }
 #cv .date {
-   font: 15px/24px "Courier New", monospace;
+   font: 15px/24px Helvetica, Arial, sans-serif;
    margin-top: 6px;
 }
 
@@ -388,8 +386,8 @@ div.icons div.overlay div.gotya{
 
    font-size: 0px;
    
+   -moz-opacity: 0;
 	opacity: 0;
-	-moz-opacity: 0;
 	filter:alpha(opacity=0);
 
    -webkit-transition: opacity 0.3s ease-in-out;
@@ -399,9 +397,43 @@ div.icons div.overlay div.gotya{
 
 }
 div.icons div.overlay div.columns div.gotya:hover{
+   -moz-opacity: 1;
    opacity: 1;
-	-moz-opacity: 1;
 	filter:alpha(opacity=100);
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Where I have been
+/* ------------------------------------------------------------------ */
+
+
+#where {
+   background: #2B2B2B;
+   padding-top: 0px;
+   padding-bottom: 72px;
+   overflow: hidden;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+#where a  { color: #ffffff; }
+#where a:hover { color: #7c00f0; }
+
+#where h1 {
+   font: 22px/30px Helvetica, Arial, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #ffffff;
+   padding-top: 0px;
+   padding-bottom: 72px;
+}
+#where h1 span {
+   border-bottom: 3px solid #7c00f0;
+   float:left;
+}
+#where h3 {
+   font: 25px/30px Helvetica, Arial, sans-serif;
+   color: #ffffff;
 }
 
 /* ------------------------------------------------------------------ */
@@ -409,14 +441,13 @@ div.icons div.overlay div.columns div.gotya:hover{
 /* ------------------------------------------------------------------ */
 
 #portfolio {
+   padding-top:70px;
    background: #2B2B2B;
-   padding-top: 60px;
-   padding-bottom: 60px;
    overflow: auto;
 }
 
 #portfolio h1 {
-   font: 22px/30px "Courier New", monospace;
+   font: 22px/30px Helvetica, Arial, sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    margin-bottom: 48px;
@@ -470,8 +501,8 @@ div.icons div.overlay div.columns div.gotya:hover{
    width: 100%;
    height: 100%;
    
-	opacity: 0;
 	-moz-opacity: 0;
+   opacity: 0;
 	filter:alpha(opacity=0);
 
    -webkit-transition: opacity 0.1s ease-in-out;
@@ -491,8 +522,8 @@ div.icons div.overlay div.columns div.gotya:hover{
    line-height: 30px;
    text-align: left;
 
+   -moz-opacity: 0;
    opacity: 0;
-	-moz-opacity: 0;
 	filter:alpha(opacity=0);
 
    -webkit-transition: opacity 0.2s ease-in-out;
@@ -515,11 +546,11 @@ div.icons div.overlay div.columns div.gotya:hover{
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px "Courier New", monospace;
+   font: 14px/21px Helvetica, Arial, sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px "Courier New", monospace;
+   font: 12px/18px Helvetica, Arial, sans-serif;
    color: #c6c7c7;
    text-align: left;
    margin-bottom: 0;
@@ -528,22 +559,22 @@ div.icons div.overlay div.columns div.gotya:hover{
 /* on hover */
 
 .portfolio-item:hover .overlay {
-	opacity: 1;
 	-moz-opacity: 1;
+   opacity: 1;
 	filter:alpha(opacity=100);
 }
 
 .portfolio-item:hover{
-	opacity: 1;
 	-moz-opacity: 1;
+   opacity: 1;
 	filter:alpha(opacity=100);
    
 }
 
 
 .portfolio-item:hover .link-icon {
+   -moz-opacity: 1;
    opacity: 1;
-	-moz-opacity: 1;
    color: #7c00f0;
 	filter:alpha(opacity=100);
 }
@@ -655,13 +686,12 @@ div.icons div.overlay div.columns div.gotya:hover{
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   padding-bottom: 48px;
+   height: 2px;
    color: #000000;
    font-size: 14px;
    text-align: center;
    position: relative;
-   background-color:#161415;
+   background-color:#000000;
 }
 
 footer a, footer a:visited { color: #ffffff; }
@@ -734,3 +764,15 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #go-top a:hover { background-color: #7c00f0; }
+
+
+#contact{
+   padding-top:30px;
+   background-color:#2B2B2B;
+}
+
+#right{
+   -webkit-transition: right 1s ease-in;
+}
+
+
